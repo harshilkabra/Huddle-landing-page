@@ -39,6 +39,11 @@ For the social icons, you can use a font icon library. Some suggestions can be f
 - [Font Awesome](https://fontawesome.com/)
 - [IcoMoon](https://icomoon.io/)
 - [Ionicons](https://ionicons.com/) */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+/* font-family: 'Poppins', sans-serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+/* font-family: 'Open Sans', sans-serif; */
 
 * {
   margin: 0;
@@ -48,4 +53,262 @@ For the social icons, you can use a font icon library. Some suggestions can be f
 
 html {
   font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  display: block;
+}
+
+p {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  line-height: 2.5rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+  color: hsl(192, 100%, 9%);
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+section {
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 4rem;
+  align-items: center;
+}
+
+.logo {
+  height: 2rem;
+}
+
+.nav-button {
+  background-color: white;
+  color: hsl(322, 100%, 66%);
+  border-color: hsl(322, 100%, 66%);
+  padding: 1rem;
+  border-radius: 3rem;
+  width: 12rem;
+}
+
+.illustrations {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-1 {
+  margin-top: 10rem;
+  /* text-align: center; */
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.section-1-text {
+  font-size: 1.7rem;
+  margin-top: 3rem;
+  max-width: 38rem;
+}
+
+.callToAction {
+  background-color: hsl(322, 100%, 66%);
+  border: none;
+  border-radius: 3rem;
+  padding: 2rem;
+  width: 30rem;
+  color: white;
+  margin-top: 4rem;
+}
+
+.section-2 {
+  margin-top: 15em;
+}
+
+.illustrations {
+  max-width: 30rem;
+}
+
+.section2-icons {
+  width: 4rem;
+}
+
+h2 {
+  font-size: 6rem;
+}
+
+.section-2-subsection p {
+  font-size: 1.5rem;
+  /* text-align: center; */
+}
+
+.section-2-subsection section {
+  margin-top: 10rem;
+}
+
+.backgrounds {
+  width: 100%;
+}
+
+.section-3 {
+  margin-top: 3rem;
+}
+
+.section-3-subsection {
+  background-color: hsl(207, 100%, 98%);
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-top: 5rem;
+}
+
+.section-3-subsection p {
+  font-size: 1.5rem;
+  max-width: 34rem;
+  /* text-align: center; */
+}
+
+.section-4-subsection {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+.section-4-subsection p {
+  font-size: 1.5rem;
+  max-width: 34rem;
+}
+
+.section-5 {
+  margin-top: 3rem;
+}
+
+.section-5-subsection {
+  background-color: hsl(207, 100%, 98%);
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.section-5-subsection p {
+  font-size: 1.5rem;
+  max-width: 34rem;
+  /* text-align: center; */
+}
+
+.section-6 {
+  margin-top: 14rem;
+  margin-bottom: 14rem;
+}
+
+.footer-background {
+  background-color: hsl(192, 100%, 9%);
+}
+
+footer,
+footer section h3 {
+  color: white;
+}
+
+footer section h3 {
+  margin-top: 0;
+}
+
+footer h3,
+footer p {
+  text-align: left;
+}
+
+footer p {
+  /* max-width: 25rem; */
+  font-size: 1.5rem;
+}
+
+footer input {
+  margin-top: 2rem;
+  display: block;
+  width: 95%;
+  height: 3.5rem;
+  border-radius: 1rem;
+}
+
+.newsletter-components {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 2rem;
+}
+
+.newsletter-components input {
+  height: 4.5rem;
+}
+
+::placeholder {
+  color: rgba(89, 89, 89, 0.489);
+}
+
+.subscribe-button {
+  margin-top: 1rem;
+  padding: 1.5rem;
+  width: 15rem;
+  border-radius: 1rem;
+  color: white;
+  background-color: hsl(322, 100%, 66%);
+  /* margin-right: 4.5rem; */
+}
+
+.footer-logo {
+  margin-top: 7rem;
+  padding-left: 2rem;
+}
+
+.footer-subsection-2 p {
+  max-width: 35rem;
+  margin-left: 0%;
+  margin-top: 1.5rem;
+  /* margin-right: 0%; */
+}
+
+.contact-details {
+  display: flex;
+  margin-left: 2rem;
+  align-items: flex-end;
+}
+
+.contact-details img {
+  height: 2rem;
+}
+
+.social-icons {
+  margin-top: 4rem;
+  padding-bottom: 4rem;
+  margin-left: 2rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.social-icons img {
+  width: 3rem;
 }

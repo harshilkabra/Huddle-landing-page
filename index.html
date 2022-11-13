@@ -10,43 +10,63 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <!--Font awesome script for icons-->
+    <script
+      src="https://kit.fontawesome.com/cfa28ad24a.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="design/style.css" />
     <title>Frontend Mentor | Huddle landing page with curved sections</title>
   </head>
   <body>
     <header>
-      <img class="logo" src="images/logo.svg" alt="Huddle logo" />
-      <button>Try if Free</button>
+      <nav>
+        <img class="logo" src="images/logo.svg" alt="Huddle logo" />
+        <button class="nav-button">Try if Free</button>
+      </nav>
     </header>
     <main>
-      <section>
+      <section class="section-1">
         <h1>Build The Community Your Fans Will Love</h1>
-        <p>
+        <p class="section-1-text">
           Huddle re-imagines the way we build communities. You have a voice, but
           so does your audience. Create connections with your users as you
           engage in genuine discussion.
         </p>
         <button class="callToAction">Get Start For Free</button>
       </section>
-      <section>
-        <img src="images/screen-mockups.svg" alt="Screen mockups" />
-        <section>
-          <section>
-            <img src="images/icon-communities.svg" alt="Community icon" />
+      <section class="section-2">
+        <img
+          class="illustrations"
+          src="images/screen-mockups.svg"
+          alt="Screen mockups"
+        />
+        <section class="section-2-subsection">
+          <section class="section-2-subsection-1">
+            <img
+              class="section2-icons"
+              src="images/icon-communities.svg"
+              alt="Community icon"
+            />
             <h2>1.4k+</h2>
             <p>Communities Formed</p>
           </section>
-          <section>
-            <img src="images/icon-messages.svg" alt="Messages icon" />
+          <section class="section-2-subsection-2">
+            <img
+              class="section2-icons"
+              src="images/icon-messages.svg"
+              alt="Messages icon"
+            />
             <h2>2.7m+</h2>
             <p>Messages Sent</p>
           </section>
         </section>
       </section>
-      <section>
-        <img src="images/bg-section-top-mobile-1.svg" />
-        <section>
+      <section class="section-3">
+        <img class="backgrounds" src="images/bg-section-top-mobile-1.svg" />
+        <section class="section-3-subsection">
           <img
+            class="illustrations"
             src="images/illustration-grow-together.svg"
             alt="Grow together photo"
           />
@@ -58,10 +78,11 @@
           </p>
         </section>
       </section>
-      <section>
-        <img src="images//bg-section-bottom-mobile-1.svg" alt="" />
-        <section>
+      <section class="section-4">
+        <img class="backgrounds" src="images//bg-section-bottom-mobile-1.svg" />
+        <section class="section-4-subsection">
           <img
+            class="illustrations"
             src="images/illustration-flowing-conversation.svg"
             alt="Flowing conversation photo"
           />
@@ -73,10 +94,15 @@
           </p>
         </section>
       </section>
-      <section>
-        <img src="images/bg-section-top-mobile-2.svg" alt="" />
-        <section>
+      <section class="section-5">
+        <img
+          class="backgrounds"
+          src="images/bg-section-top-mobile-2.svg"
+          alt=""
+        />
+        <section class="section-5-subsection">
           <img
+            class="illustrations"
             src="images/illustration-your-users.svg"
             alt="Your users photo"
           />
@@ -87,50 +113,62 @@
             your users can start chatting immediately.
           </p>
         </section>
-        <img src="images/bg-section-bottom-mobile-2.svg" alt="" />
+        <img
+          class="backgrounds"
+          src="images/bg-section-bottom-mobile-2.svg"
+          alt=""
+        />
       </section>
-      <section>
+      <section class="section-6">
         <h1>Ready To Build Your Community?</h1>
         <button class="callToAction">Get Start For Free</button>
       </section>
     </main>
     <footer>
       <section>
-        <img src="images/bg-footer-top-mobile.svg" alt="" />
-        <h3>Newsletter</h3>
-        <p>
-          To recieve tips on how to grow your community, sign up to our weekly
-          newsletter. We’ll never send you spam or pass on your email address
-        </p>
-        <input type="text" />
-        <button>Subscribe</button>
-      </section>
-      <section>
-        <img src="images/logo.svg" alt="" />
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla
-          quam, hendrerit lacinia vestibulum a, ultrices quis sem.
-        </p>
-        <section>
-          <img src="images/icon-phone.svg" alt="Phone icon" />
-          <p>Phone: +1-543-123-4567</p>
-        </section>
-        <section>
-          <img src="images/icon-email.svg" alt="Phone icon" />
-          <p>example@huddle.com</p>
-        </section>
-        <section>
-          <img src="images/facebook-logo.svg" alt="Facebook" />
-          <img src="images/instagram-logo.svg" alt="Instagram" />
-          <img src="images/twitter-logo.svg" alt="Twitter" />
-        </section>
-      </section>
-      <!-- <p class="attribution">
+        <img class="backgrounds" src="images/bg-footer-top-mobile.svg" alt="" />
+        <section class="footer-background">
+          <section class="footer-subsections">
+            <h3>Newsletter</h3>
+            <p>
+              To recieve tips on how to grow your community, sign up to our
+              weekly newsletter. We’ll never send you spam or pass on your email
+              address
+            </p>
+            <section class="newsletter-components">
+              <input type="text" placeholder="example@example.com" />
+              <button class="subscribe-button">Subscribe</button>
+            </section>
+          </section>
+          <section class="footer-subsections footer-subsection-2">
+            <img class="footer-logo" src="images/logo.svg" alt="Huddle logo" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+            </p>
+            <section class="contact-details">
+              <img src="images/icon-phone.svg" alt="Phone icon" />
+              <p>Phone: +1-543-123-4567</p>
+            </section>
+            <section class="contact-details">
+              <img src="images/icon-email.svg" alt="Phone icon" />
+              <p>example@huddle.com</p>
+            </section>
+            <section class="social-icons">
+              <!-- <img src="images/facebook.svg" alt="Facebook" /> -->
+              <i class="fa fa-facebook-square fa-3x"></i>
+              <i class="fa fa-instagram fa-3x"></i>
+              <i class="fa fa-twitter fa-3x"></i>
+            </section>
+          </section>
+          <!-- <p class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
         >. Coded by <a href="#">Your Name Here</a>.
       </p> -->
+        </section>
+      </section>
     </footer>
   </body>
 </html>
