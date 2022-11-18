@@ -70,9 +70,6 @@ p {
 .center {
   margin-left: auto;
   margin-right: auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  line-height: 2.5rem;
 }
 
 h1,
@@ -80,6 +77,8 @@ h3,
 h4 {
   font-family: "Poppins", sans-serif;
   color: hsl(192, 100%, 9%);
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 section {
@@ -246,6 +245,8 @@ footer section h3 {
 footer h3,
 footer p {
   text-align: left;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 footer p {
@@ -303,7 +304,7 @@ footer input {
 
 .contact-details img {
   height: 2rem;
-  margin-right: 2rem;
+  /* margin-right: 2rem; */
 }
 
 .social-icons {
