@@ -64,6 +64,10 @@ img {
 }
 
 p {
+  line-height: 2.5rem;
+}
+
+.center {
   margin-left: auto;
   margin-right: auto;
   padding-left: 2rem;
@@ -72,13 +76,10 @@ p {
 }
 
 h1,
-h2,
 h3,
 h4 {
   font-family: "Poppins", sans-serif;
   color: hsl(192, 100%, 9%);
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 section {
@@ -119,7 +120,6 @@ nav {
 
 .section-1 {
   margin-top: 10rem;
-  /* text-align: center; */
 }
 
 h1 {
@@ -150,7 +150,21 @@ h1 {
   max-width: 30rem;
 }
 
-.section2-icons {
+.section-2-subsections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.subsections {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10rem;
+}
+
+.section-2-icons {
   width: 4rem;
 }
 
@@ -158,13 +172,8 @@ h2 {
   font-size: 6rem;
 }
 
-.section-2-subsection p {
+.subsections p {
   font-size: 1.5rem;
-  /* text-align: center; */
-}
-
-.section-2-subsection section {
-  margin-top: 10rem;
 }
 
 .backgrounds {
@@ -189,7 +198,6 @@ h3 {
 .section-3-subsection p {
   font-size: 1.5rem;
   max-width: 34rem;
-  /* text-align: center; */
 }
 
 .section-4-subsection {
@@ -215,7 +223,6 @@ h3 {
 .section-5-subsection p {
   font-size: 1.5rem;
   max-width: 34rem;
-  /* text-align: center; */
 }
 
 .section-6 {
@@ -242,7 +249,6 @@ footer p {
 }
 
 footer p {
-  /* max-width: 25rem; */
   font-size: 1.5rem;
 }
 
@@ -276,7 +282,6 @@ footer input {
   border-radius: 1rem;
   color: white;
   background-color: hsl(322, 100%, 66%);
-  /* margin-right: 4.5rem; */
 }
 
 .footer-logo {
@@ -288,7 +293,6 @@ footer input {
   max-width: 35rem;
   margin-left: 0%;
   margin-top: 1.5rem;
-  /* margin-right: 0%; */
 }
 
 .contact-details {
@@ -299,6 +303,7 @@ footer input {
 
 .contact-details img {
   height: 2rem;
+  margin-right: 2rem;
 }
 
 .social-icons {
