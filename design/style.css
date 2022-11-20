@@ -59,22 +59,8 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-img {
-  display: block;
-}
-
 p {
   line-height: 2.5rem;
-}
-
-.description {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.center {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 h1,
@@ -82,12 +68,6 @@ h3,
 h4 {
   font-family: "Poppins", sans-serif;
   color: hsl(192, 100%, 9%);
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
-section {
-  text-align: center;
 }
 
 button {
@@ -104,7 +84,7 @@ nav {
 }
 
 .logo {
-  height: 2rem;
+  height: 3rem;
 }
 
 .nav-button {
@@ -116,60 +96,66 @@ nav {
   width: 12rem;
 }
 
-.illustrations {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .section-1 {
-  margin-top: 10rem;
+  margin-top: 20rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-align: center;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 4.7rem;
 }
 
 .section-1-text {
-  font-size: 1.7rem;
+  font-size: 2rem;
   margin-top: 3rem;
-  max-width: 38rem;
+  max-width: 59rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .callToAction {
   background-color: hsl(322, 100%, 66%);
   border: none;
-  border-radius: 3rem;
-  padding: 2rem;
-  width: 30rem;
+  border-radius: 4rem;
+  padding: 3rem;
+  width: 39rem;
   color: white;
   margin-top: 4rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 0.05em;
 }
 
 .section-2 {
-  margin-top: 15em;
+  margin-top: 10em;
 }
 
-.illustrations {
-  max-width: 30rem;
+.img-responsive img {
+  display: block;
+  width: 100%;
+  /* height: auto; */
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.img-responsive {
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-2-subsections {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.subsections {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
   margin-top: 10rem;
 }
 
-.section-2-icons {
-  width: 4rem;
+.backgrounds {
+  width: 100%;
+  display: block;
 }
 
 h2 {
@@ -180,62 +166,51 @@ h2 {
   font-size: 1.5rem;
 }
 
-.backgrounds {
-  width: 100%;
-}
-
-.section-3 {
-  margin-top: 3rem;
+.illustrations {
+  max-width: 30rem;
 }
 
 .section-3-subsection {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
   background-color: hsl(207, 100%, 98%);
-  padding-top: 7rem;
-  padding-bottom: 7rem;
 }
 
 h3 {
-  font-size: 2rem;
-  margin-top: 5rem;
+  font-size: 3rem;
+  /* margin-top: 5rem; */
 }
 
-.section-3-subsection p {
+.description {
   font-size: 1.5rem;
-  max-width: 37rem;
+  max-width: 40rem;
 }
 
 .section-4-subsection {
-  margin-top: 7rem;
-  margin-bottom: 7rem;
-}
-
-.section-4-subsection p {
-  font-size: 1.5rem;
-  max-width: 38rem;
-}
-
-.section-5 {
-  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .section-5-subsection {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
   background-color: hsl(207, 100%, 98%);
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-}
-
-.section-5-subsection p {
-  font-size: 1.5rem;
-  max-width: 38rem;
 }
 
 .section-6 {
-  margin-top: 14rem;
-  margin-bottom: 14rem;
+  text-align: center;
+  margin-bottom: 20rem;
 }
 
 .footer-background {
   background-color: hsl(192, 100%, 9%);
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 10rem;
 }
 
 footer,
@@ -243,83 +218,225 @@ footer section h3 {
   color: white;
 }
 
-footer section h3 {
-  margin-top: 0;
-}
+@media only screen and (max-width: 720px) {
+  img {
+    display: block;
+  }
 
-footer h3,
-footer p {
-  text-align: left;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
+  .description {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 
-footer p {
-  font-size: 1.5rem;
-}
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-footer input {
-  margin-top: 2rem;
-  display: block;
-  width: 95%;
-  height: 3.5rem;
-  border-radius: 1rem;
-}
+  h1,
+  h3,
+  h4 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 
-.newsletter-components {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  margin-right: 2rem;
-}
+  section {
+    text-align: center;
+  }
 
-.newsletter-components input {
-  height: 4.5rem;
-}
+  .logo {
+    height: 2rem;
+  }
 
-::placeholder {
-  color: rgba(89, 89, 89, 0.489);
-}
+  .illustrations,
+  .img-responsive img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-.subscribe-button {
-  margin-top: 1rem;
-  padding: 1.5rem;
-  width: 15rem;
-  border-radius: 1rem;
-  color: white;
-  background-color: hsl(322, 100%, 66%);
-}
+  .section-1 {
+    margin-top: 10rem;
+  }
 
-.footer-logo {
-  margin-top: 7rem;
-  padding-left: 2rem;
-}
+  h1 {
+    font-size: 3rem;
+  }
 
-.footer-subsection-2 p {
-  max-width: 35rem;
-  margin-left: 0%;
-  margin-top: 1.5rem;
-}
+  .section-1-text {
+    font-size: 1.7rem;
+    margin-top: 3rem;
+    max-width: 38rem;
+  }
 
-.contact-details {
-  display: flex;
-  margin-left: 2rem;
-  align-items: flex-end;
-}
+  .callToAction {
+    border-radius: 3rem;
+    padding: 2rem;
+    width: 30rem;
+    margin-top: 4rem;
+  }
 
-.contact-details img {
-  height: 2rem;
-  /* margin-right: 2rem; */
-}
+  .illustrations {
+    max-width: 30rem;
+  }
 
-.social-icons {
-  margin-top: 4rem;
-  padding-bottom: 4rem;
-  margin-left: 2rem;
-  display: flex;
-  gap: 1.5rem;
-}
+  .section-2-subsections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
-.social-icons img {
-  width: 3rem;
+  .subsections {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10rem;
+  }
+
+  .section-2-icons {
+    width: 4rem;
+  }
+
+  h2 {
+    font-size: 6rem;
+  }
+
+  .subsections p {
+    font-size: 1.5rem;
+  }
+
+  .section-3 {
+    margin-top: 3rem;
+  }
+
+  .section-3-subsection {
+    background-color: hsl(207, 100%, 98%);
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    flex-direction: column;
+  }
+
+  h3 {
+    font-size: 2rem;
+    margin-top: 5rem;
+  }
+
+  .section-3-subsection p {
+    font-size: 1.5rem;
+    max-width: 37rem;
+  }
+
+  .section-4-subsection {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    flex-direction: column;
+  }
+
+  .section-4-subsection p {
+    font-size: 1.5rem;
+    max-width: 38rem;
+  }
+
+  .section-5 {
+    margin-top: 3rem;
+  }
+
+  .section-5-subsection {
+    background-color: hsl(207, 100%, 98%);
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    flex-direction: column;
+  }
+
+  .section-5-subsection p {
+    font-size: 1.5rem;
+    max-width: 38rem;
+  }
+
+  .section-6 {
+    margin-top: 14rem;
+    margin-bottom: 14rem;
+  }
+
+  footer section h3 {
+    margin-top: 0;
+  }
+
+  footer h3,
+  footer p {
+    text-align: left;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  footer p {
+    font-size: 1.5rem;
+  }
+
+  footer input {
+    margin-top: 2rem;
+    display: block;
+    width: 95%;
+    height: 3.5rem;
+    border-radius: 1rem;
+  }
+
+  .newsletter-components {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 2rem;
+  }
+
+  .newsletter-components input {
+    height: 4.5rem;
+  }
+
+  ::placeholder {
+    color: rgba(89, 89, 89, 0.489);
+  }
+
+  .subscribe-button {
+    margin-top: 1rem;
+    padding: 1.5rem;
+    width: 15rem;
+    border-radius: 1rem;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+  }
+
+  .footer-logo {
+    margin-top: 7rem;
+    padding-left: 2rem;
+  }
+
+  .footer-subsection-2 p {
+    max-width: 35rem;
+    margin-left: 0%;
+    margin-top: 1.5rem;
+  }
+
+  .contact-details {
+    display: flex;
+    margin-left: 2rem;
+    align-items: flex-end;
+  }
+
+  .contact-details img {
+    height: 2rem;
+    /* margin-right: 2rem; */
+  }
+
+  .social-icons {
+    margin-top: 4rem;
+    padding-bottom: 4rem;
+    margin-left: 2rem;
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .social-icons img {
+    width: 3rem;
+  }
 }
