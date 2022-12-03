@@ -359,6 +359,10 @@ footer section h3 {
     margin-bottom: 14rem;
   }
 
+  .footer-background {
+    display: block;
+  }
+
   footer section h3 {
     margin-top: 0;
   }
