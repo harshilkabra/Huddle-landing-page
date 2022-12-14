@@ -61,7 +61,13 @@
         </section>
       </section>
       <section class="section-3">
-        <img class="backgrounds" src="images/bg-section-top-mobile-1.svg" />
+        <picture>
+          <source
+            media="(min-width:900px)"
+            srcset="images/bg-section-top-desktop-1.svg"
+          />
+          <img class="backgrounds" src="images/bg-section-top-mobile-1.svg" />
+        </picture>
         <section class="section-3-subsection">
           <img
             class="illustrations"
@@ -79,7 +85,16 @@
         </section>
       </section>
       <section class="section-4">
-        <img class="backgrounds" src="images//bg-section-bottom-mobile-1.svg" />
+        <picture>
+          <source
+            media="(min-width:900px)"
+            srcset="images/bg-section-bottom-desktop-1.svg"
+          />
+          <img
+            class="backgrounds"
+            src="images/bg-section-bottom-mobile-1.svg"
+          />
+        </picture>
         <section class="section-4-subsection">
           <img
             class="illustrations"
@@ -97,11 +112,13 @@
         </section>
       </section>
       <section class="section-5">
-        <img
-          class="backgrounds"
-          src="images/bg-section-top-mobile-2.svg"
-          alt=""
-        />
+        <picture>
+          <source
+            media="(min-width:900px)"
+            srcset="images/bg-section-top-desktop-2.svg"
+          />
+          <img class="backgrounds" src="images/bg-section-top-mobile-2.svg" />
+        </picture>
         <section class="section-5-subsection">
           <img
             class="illustrations"
@@ -117,11 +134,16 @@
             </p>
           </section>
         </section>
-        <img
-          class="backgrounds"
-          src="images/bg-section-bottom-mobile-2.svg"
-          alt=""
-        />
+        <picture>
+          <source
+            media="(min-width:900px)"
+            srcset="images/bg-section-bottom-desktop-2.svg"
+          />
+          <img
+            class="backgrounds"
+            src="images/bg-section-bottom-mobile-2.svg"
+          />
+        </picture>
       </section>
       <section class="section-6">
         <h1>Ready To Build Your Community?</h1>
@@ -130,17 +152,23 @@
     </main>
     <footer>
       <section>
-        <img class="backgrounds" src="images/bg-footer-top-mobile.svg" alt="" />
+        <picture>
+          <source
+            media="(min-width:900px)"
+            srcset="images/bg-footer-top-desktop.svg"
+          />
+          <img class="backgrounds" src="images/bg-footer-top-mobile.svg" />
+        </picture>
         <section class="footer-background">
-          <section class="footer-subsections">
+          <section class="footer-subsections footer-subsection-1">
             <h3 class="center">Newsletter</h3>
-            <p class="center">
-              To recieve tips on how to grow your community, sign up to our
+            <p>
+              To receive tips on how to grow your community, sign up to our
               weekly newsletter. We’ll never send you spam or pass on your email
               address
             </p>
             <section class="newsletter-components">
-              <input type="text" placeholder="example@example.com" />
+              <input type="text" placeholder=" example@example.com" />
               <button class="subscribe-button">Subscribe</button>
             </section>
           </section>
